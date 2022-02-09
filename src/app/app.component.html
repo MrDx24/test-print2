@@ -1,8 +1,8 @@
 
-<div style="border: 1px solid black;" >
+<div style="border: 1px solid black; width: max-content;" >
   <h1>Hello</h1>
   <h4>{{ title }}</h4>
-  <div class="signature-container" style="border: 1px solid black;">
+  <div class="signature-container" style="border: 1px solid black; width: max-content;">
     <signature-pad [options]="signaturePadOptions" (onBeginEvent)="drawStart()"
     (onEndEvent)="drawComplete()" ></signature-pad>
   </div>
